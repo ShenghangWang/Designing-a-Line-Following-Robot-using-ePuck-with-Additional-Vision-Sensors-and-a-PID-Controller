@@ -1,3 +1,3 @@
-# PID_Controller
+PID_Controller
 
 This project involves designing a PID controller for a line-following robot using an ePuck. The PID controller updates the velocity of the robot's wheels based on the difference between the target and actual velocity. The error signal is composed of two parts - the main error based on the calculated slope of the path, and the small error based on the greenness of the line the robot needs to follow. By reading and analyzing the pixels to evaluate the greenness, the robot is able to update the velocity of its wheels and follow the line accurately. The video demonstration shows the ePuck successfully following the green track on the ground, including a 90-degree sharp turn.
